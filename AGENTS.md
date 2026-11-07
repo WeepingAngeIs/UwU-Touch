@@ -1,0 +1,1 @@
+Run tests and builds on GitHub-hosted runners. Do not run heavy testing or builds on the owner's PC. Use fake input drivers in tests. Never replay real keyboard or mouse macros during verification. Keep credentials, personal recordings, databases and build output out of Git.

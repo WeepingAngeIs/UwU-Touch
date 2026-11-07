@@ -1,0 +1,16 @@
+Nova Macro Hub - reference-inspired mascot update
+
+Run the app:
+1. Extract the entire ZIP to a new folder.
+2. Run "1 - Install (first time).bat" if this folder has not been installed.
+3. Run "2 - Start Nova Macro Hub.bat".
+This is a runnable Python project, not a prebuilt EXE. The original EXE build script is included and already bundles the assets folder.
+
+The System Tray panel now uses assets/nova-heart-mascot.png: a transparent pink-haired, cat-eared chibi character holding a heart, inspired by the supplied reference. It scales proportionally and sits beside the existing controls and caption. Controls and macro/Discord functionality are preserved.
+
+If you previously chose a custom mascot, it is still respected. To show the new default, use Settings > Appearance > Mascot picture > Use cat.
+
+Validation: 53 existing tests passed. Off-screen layout checks passed at 1100x700, 1560x1000 and 1920x1080. Transparency, bundled image loading, missing custom-image fallback, and no overlap with tray checkboxes verified. EXE packaging was not run.
+
+Art created with the built-in image generation tool. Generation prompt:
+Use case: illustration-story. Reference image is a style and character reference, NOT the output canvas. Create ONLY a transparent PNG mascot asset matching the pink-haired cat-eared chibi girl in the LOWER LEFT System Tray panel of the provided screenshot. A cute wholesome anime chibi girl shown waist-up, long flowing pastel pink hair, fluffy pink cat ears, big sparkling magenta eyes, joyful tiny open smile, blush, white and lavender flower hair clip on viewer left, dark plum long-sleeved outfit with modest white collar. Both hands holding a bright pink heart at chest level. Match the reference's crisp pink outline and luminous pink highlights, small floating outlined hearts and sparkles around her, carefully separated from the silhouette. Square canvas, fill most of the canvas with the character, ears and hands fully visible, hair flowing toward lower left and right, waist at bottom. Genuine transparent background with no rectangle or scenery. No UI, no caption, no text, no moon, no animal cat. Clean detailed anime illustration, readable at 160 pixels wide. This is an asset to be placed LEFT of real checkboxes and caption, so do not draw controls or lettering.
